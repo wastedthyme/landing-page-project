@@ -99,7 +99,10 @@ ul {
 
 .information-title {
     text-align: center;
-    margin: 50px;
+    margin: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
 }
 
 .information-items img {
