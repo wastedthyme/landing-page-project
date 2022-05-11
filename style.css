@@ -47,15 +47,39 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 60px 100px;
+    background-color: #1f2937;
 }
 
+
 .hero-img img {
-    width: 600px;
+    width: 550px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    padding-right: 30px;
   
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.hero-button button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 12px 45px;
+    border-radius: 10px;
+    border: none;
 }
