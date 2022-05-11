@@ -4,15 +4,16 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    
     
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 0px 100px;
    
 }
 
@@ -40,4 +41,21 @@ a:link {
   
 ul {
         list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+.hero-img img {
+    width: 600px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+  
 }
