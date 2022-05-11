@@ -49,6 +49,7 @@ ul {
     align-items: center;
     padding: 60px 100px;
     background-color: #1f2937;
+    margin-bottom: 50px;
 }
 
 
@@ -82,4 +83,28 @@ ul {
     padding: 12px 45px;
     border-radius: 10px;
     border: none;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+
+}
+.information-items {
+    max-width: 200px;
+    text-align: center;
+}
+
+.information-title {
+    text-align: center;
+    margin: 50px;
+}
+
+.information-items img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
