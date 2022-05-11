@@ -131,17 +131,29 @@ ul {
 
 .call-to-action {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 40px 100px;
     background-color: #3882f6;
     margin: 60px 150px;
+    border-radius: 5px;
+    color: #f9faf8;
+
+}
+
+.action-secondary-text {
+    font-weight: 200;
+    padding-top: 5px;
 }
 
 .action-container {
    width: 500px;
 }
 
-.action-button {
-    display: flex;
+.action-button button {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 12px 45px;
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
