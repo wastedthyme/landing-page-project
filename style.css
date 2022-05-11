@@ -2,19 +2,36 @@ body {
     font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
     
 }
-
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1f2937;
+   
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+   
 }
 
 .header-links {
     display:flex;
-    gap: 20px;
+    gap: 25px;
+    
+}
+
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
 }
 
 a:link {
