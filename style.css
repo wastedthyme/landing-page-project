@@ -111,3 +111,20 @@ ul {
     border-radius: 10px;
     padding-bottom: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 200px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    font-style: italic;
+    
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 30px;
+}
